@@ -1,4 +1,3 @@
-import { Anthropic } from '@anthropic-ai/sdk';
 
 export async function extractTextFromPDF(file: File): Promise<string> {
   return new Promise((resolve, reject) => {
